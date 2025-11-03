@@ -1,0 +1,24 @@
+  307  git clone https://github.com/Inspalamos-SMX2B-2025-2026/01-git-basics-Xincheng-bit.git
+  309  rmdir 01-git-basics-Xincheng-bit/
+  312  cd 01-git-basics-Xincheng-bit/
+  316  git add exe1.html README.md
+  317  git commit -m "Nou exe1"
+  318  git push
+  320  cd 01-git-basics-Xincheng-bit/
+  322  git push
+  326  git remote set-url origin git@github.com:Inspalamos-SMX2B-2025-2026/01-git-basics-Xincheng-bit.git
+  327  git push
+  331  git add exe2.html
+  332  git commit -m "Nou exe2"
+  333  git push
+  338  git add exe1.html exe2.html README.md
+  339  git commit -m "Using Bootstrap"
+  340  git push
+  341  git branch web
+  342  git checkout main
+  343  git rm exe1.html exe2.html
+  344  git commit -m "Main only README"
+  345  git push
+  346  git push -u origin web
+  349  git push -u origin web
+  350  history | grep git > git.log
